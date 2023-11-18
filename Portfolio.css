@@ -1,0 +1,56 @@
+*{
+    color:white;
+    box-sizing:border-box;
+}
+body{
+    background-color: #0F182D;  
+}
+#container{
+    display: flex;
+}
+header, main{
+    width: 50%;
+    padding:96px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.focus-text{
+    letter-spacing: -.025em;
+}
+/* header */
+#name{
+    margin:0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+#role{
+    margin: 0;
+    margin-top: 0.75rem;
+    font-size: 1.25rem;
+}
+#about-me{
+    margin-top: 1rem;
+    max-width: 20rem;
+    opacity: 0.7;
+}
+.ul-fixsection{
+    margin-top: 4rem;
+}
+/* main */
+.sec-about{
+    margin-bottom: 9rem;
+    opacity: 0.6;
+}
+.container-exp>ol>li{
+    margin-bottom: 3rem;
+}
+.year-exp{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+.year-exp>div:nth-child(1){
+  grid-column: 1/3;
+}
+.year-exp>div:nth-child(2){
+  grid-column: 3/8;
+}
